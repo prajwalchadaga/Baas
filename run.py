@@ -5,7 +5,7 @@ b=4
 f=0
 x=[]
 os.system("g++ /b/jenkins/jobs/Baas/workspace/test.cpp")
-"""for i in range(a):
+for i in range(a):
   for j in range(b):
     subprocess.call('cd /b/jenkins/jobs/Baas/workspace', shell=True)
     cmd=['./a.out',str(i),str(j)]
@@ -19,7 +19,7 @@ if f:
   print("failed for "+str(f)+" testcases\n")
   print('\n'.join(x))
 else:
-  print("succes")"""
+  print("succes")
 
 
 
