@@ -4,7 +4,8 @@ a=4
 b=4
 f=0
 x=[]
-os.system("gcc /Baas/blob/master/test.cpp")
+os.system("pwd")
+"""os.system("gcc /Baas/blob/master/test.cpp")
 for i in range(a):
   for j in range(b):
     subprocess.call('cd /Baas/blob/master', shell=True)
@@ -19,7 +20,7 @@ if f:
   print("failed for "+str(f)+" testcases\n")
   print('\n'.join(x))
 else:
-  print("succes")
+  print("succes")"""
 
 
 
