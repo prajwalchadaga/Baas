@@ -1,0 +1,12 @@
+import sys
+import os,subprocess
+a=4
+b=4
+os.system("gcc test.cpp")
+for i in range(a):
+  for j in range(b):
+    cmd=["./a.out i j"]
+    output = subprocess.Popen( cmd, stdout=subprocess.PIPE ).communicate()[0]
+    if output
+    
+  
