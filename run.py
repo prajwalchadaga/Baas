@@ -4,11 +4,10 @@ a=4
 b=4
 f=0
 x=[]
-os.system("pwd")
-"""os.system("gcc /Baas/blob/master/test.cpp")
+os.system("gcc /b/jenkins/jobs/Baas/workspace/test.cpp")
 for i in range(a):
   for j in range(b):
-    subprocess.call('cd /Baas/blob/master', shell=True)
+    subprocess.call('cd /b/jenkins/jobs/Baas/workspace', shell=True)
     cmd=['./a.out',str(i),str(j)]
     output = subprocess.Popen( cmd, stdout=subprocess.PIPE ).communicate()[0]
     if not  re.search(str(i+j),output):
