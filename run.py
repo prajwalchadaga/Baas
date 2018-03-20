@@ -4,7 +4,7 @@ a=4
 b=4
 f=0
 x=[]
-os.system("gcc /b/jenkins/jobs/Baas/workspace/test.cpp")
+os.system("g++ /b/jenkins/jobs/Baas/workspace/test.cpp")
 """for i in range(a):
   for j in range(b):
     subprocess.call('cd /b/jenkins/jobs/Baas/workspace', shell=True)
