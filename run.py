@@ -19,7 +19,7 @@ if f:
   print("failed for "+str(f)+" testcases\n")
   print('\n'.join(x))
 else:
-  print("succes")"""
+  print("succes")
 
 
 
